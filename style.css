@@ -165,50 +165,6 @@ input {
     cursor: pointer;
 }
 
-/* catergories */
-
-.explore-section {
-   text-align: center;
-   background:#EEEEEE;
-   padding: 2.5rem 10rem 1.5rem 10rem;
-}
-
-.card-container {
-    display: flex;
-    margin-top: 3rem;
-    justify-content: space-evenly;
-    max-width: 90rem;
-    margin: 0px auto;
-    padding: 0px 1rem;
-}
-
-
-.explore-header {
-    font-size: 1.5rem;
-    margin-bottom: 2.5rem;
-    color: #000000;
-}
-
-.card {
-    width: 20rem;
-    background: #fff;
-    margin-bottom: 50px;
-}
-
-.card-body {
-    padding: 20px 10px;
-    font-size: 15px;
-}
-
-.card-body p {
-    font-size: 0.5;
-}
-
-.card:hover {
-    opacity: 0.8;
-    cursor: pointer;
-}
-
 /* Introduction section */
 
 .introduction {
@@ -320,24 +276,25 @@ figure .section-img {
 
 /* Featured items */
 
-.featured-section {
+.explore-section {
     text-align: center;
-    background-color:#EEEEEE;
-    padding-top: 75px;
-    padding: 4.688rem 10rem 1.5rem 10rem;
- }
+    background:#EEEEEE;
+    padding: 2.5rem 10rem 1.5rem 10rem;
+}
  
-.item-container {
+.card-container {
      display: flex;
+     margin-top: 3rem;
      justify-content: space-evenly;
-     margin: 0px auto 5rem;
      max-width: 90rem;
+     margin: 0px auto;
      padding: 0px 1rem;
 }
  
-.featured-header {
-     font-size: 2.2rem;
-     margin-bottom: 3rem;
+ 
+.explore-header {
+     font-size: 1.5rem;
+     margin-bottom: 2.5rem;
      color: #000000;
 }
  
@@ -345,7 +302,10 @@ figure .section-img {
      width: 20rem;
      background: #fff;
      margin-bottom: 50px;
-     transition: 0.3s;
+}
+  
+.card-body p {
+     font-size: 0.5;
 }
  
 .more-card {
