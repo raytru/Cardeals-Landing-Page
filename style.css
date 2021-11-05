@@ -195,13 +195,6 @@ input {
     margin-bottom: 50px;
 }
 
-.card-header {
-    text-align: center;
-    color: #ccc;
-    padding: 80px 10px;
-    background-image: linear-gradient(rgba(70, 50, 80, 0.5), rgba(70, 50, 80, 0)), url(tree.jpg);
-}
-
 .card-body {
     padding: 20px 10px;
     font-size: 15px;
@@ -371,7 +364,7 @@ figure .section-img {
     text-align: center;
     color: #ccc;
     padding: 80px 10px;
-    background-image: linear-gradient(rgba(88, 88, 163, 0.384), rgb(0, 0, 0)), url(/Assignment3/img/featuredCat/jdm.jpg);
+    background-image: linear-gradient(rgba(88, 88, 163, 0.384), rgb(0, 0, 0)), url(img/featuredCat/jdm.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;  
@@ -381,7 +374,7 @@ figure .section-img {
     text-align: center;
     color: #ccc;
     padding: 80px 10px;
-    background-image: linear-gradient(rgba(88, 88, 163, 0.384), rgb(0, 0, 0)), url(/Assignment3/img/featuredCat/compact.jpg);
+    background-image: linear-gradient(rgba(88, 88, 163, 0.384), rgb(0, 0, 0)), url(img/featuredCat/compact.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;  
@@ -391,7 +384,7 @@ figure .section-img {
     text-align: center;
     color: #ccc;
     padding: 80px 10px;
-    background-image: linear-gradient(rgba(88, 88, 163, 0.384), rgb(0, 0, 0)), url(/Assignment3/img/featuredCat/adventure.jpg);
+    background-image: linear-gradient(rgba(88, 88, 163, 0.384), rgb(0, 0, 0)), url(img/featuredCat/adventure.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;  
